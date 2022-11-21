@@ -18,8 +18,8 @@ packages:
   - ddns-scripts_dnspod
   - wireguard-tools
   - kmod-usb3
+  - luci-app-smartdns
   - luci-app-passwall
-  - luci-app-ddns
   - luci-app-ttyd
   - luci-app-wireguard
   - luci-app-wol
@@ -42,6 +42,7 @@ diffconfig: |
   CONFIG_PACKAGE_luci-i18n-aliyundrive-fuse-zh-cn=y
   CONFIG_PACKAGE_luci-i18n-argon-config-zh-cn=y
   CONFIG_PACKAGE_luci-i18n-aria2-zh-cn=y
+  CONFIG_PACKAGE_luci-i18n-smartdns-zh-cn=y
   CONFIG_PACKAGE_luci-i18n-base-zh-cn=y
   CONFIG_PACKAGE_luci-i18n-ddnsto-zh-cn=y
   CONFIG_PACKAGE_luci-i18n-firewall-zh-cn=y
